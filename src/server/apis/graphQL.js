@@ -9,7 +9,7 @@ let schema = buildSchema(
 );
 
 let root = {
-    message: () => 'Hello, your mom'
+    message: () => 'Hello, not sure how this all works yet...'
 };
 
 module.exports = function(app) {

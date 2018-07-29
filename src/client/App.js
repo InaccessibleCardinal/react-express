@@ -22,7 +22,7 @@ class App extends Component {
     }
     testGraphQL() {
         let url = 'http://localhost:8000/graphql?query=%7Bmessage%7D';
-        fetch(url).then(d => d.json()).then(m => console.log(m.data));
+        fetch(url).then(d => d.json()).then(m => console.log('Groundbreaking stuff: ',m.data));
     }
     render() {
         let _this = this;
